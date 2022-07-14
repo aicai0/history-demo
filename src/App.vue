@@ -7,7 +7,22 @@
     <router-view/>
   </div>
 </template>
-
+<script>
+export default {
+  name: "APP",
+  data(){
+    return {
+      
+    }
+  },
+  created(){
+    console.log("app created")
+  },
+  mounted(){
+    console.log("app mounted")
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
